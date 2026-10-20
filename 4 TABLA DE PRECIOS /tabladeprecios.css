@@ -1,0 +1,55 @@
+.container {
+    margin: 0px auto;
+    width: 500px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: hotpink;
+    color: #333;
+    border: #333 1px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px #333;
+    width: 23%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: aqua;
+}
+.btn-precio {
+
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+
+    background: #333;
+
+}
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+       width: 100%;
+        margin-bottom: 20px; 
+
+    }
+}
+    
