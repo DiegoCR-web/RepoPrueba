@@ -4,6 +4,7 @@
 }
 .flex{
     display: flex;
+    font-size: 23px;
     flex-wrap: wrap;
 }
 .text-center{
